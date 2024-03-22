@@ -207,3 +207,23 @@ body {
 .grid-ovos-de-pascoa h3 {
     text-align: center;
 }
+
+@media (max-width: 450px) {
+    .menu a h2 {
+        font-size: 1rem;
+    }
+
+    .ovos-de-pascoa {
+        height: auto;
+        padding-bottom: 5%;
+    }
+
+    .section-slides {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
